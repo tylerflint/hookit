@@ -10,7 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["tylerflint@gmail.com"]
   spec.summary       = %q{A template, build, and configuration framework, primarily intended for CI/CD scenarios where generating configuration files, code, and running tasks like compilation and deployment are necessary.}
   spec.description   = %q{A template, build, and configuration framework.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tylerflint/hookit"
+  spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
